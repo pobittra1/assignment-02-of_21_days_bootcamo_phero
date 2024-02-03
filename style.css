@@ -34,11 +34,14 @@ button {
 
 .container {
   max-width: 1200px;
-  background-color: #f0fff0;
   margin: 0 auto;
 }
 
 /* header section start here */
+.sub-contain {
+  width: 100%;
+  background-color: #f0fff0;
+}
 header {
   width: 80%;
   margin: 0 auto;
@@ -82,9 +85,9 @@ nav ul li {
 .hero-section .content-area h1 span {
   color: #21b573;
 }
-.hero-details{
+.hero-details {
   font-size: 12px;
-  color: #6C6B6B;
+  color: #6c6b6b;
 }
 .hero-section .img-area {
   width: 60%;
@@ -92,8 +95,45 @@ nav ul li {
 .hero-section .img-area img {
   width: 100%;
 }
-.hero-section button{
+.hero-section button {
   margin: 0.8rem 0;
 }
 
 /* hero section end here */
+
+/* satistics section start here */
+.satistics-section {
+  width: 80%;
+  margin: 3.8rem auto;
+  display: flex;
+}
+
+.satistics-section .cards {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: var(--main-fonts);
+}
+.satistics-section .cards .card {
+  background-color: #f5fffa;
+  /* padding: 1.6rem 1rem; */
+  padding: 1.8rem 1rem;
+}
+.satistics-section .cards .card:nth-child(2){
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.satistics-section .main-headline {
+  font-weight: bold;
+  margin: 0.2rem 0rem;
+}
+.satistics-section .sub-headline {
+  font-size: 12px;
+  color: #585859;
+}
+.satistics-section .card img {
+  width: 50px;
+}
+/* satistics section end here */
