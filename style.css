@@ -137,3 +137,63 @@ nav ul li {
   width: 50px;
 }
 /* satistics section end here */
+
+
+/* courses section start here */
+.courses-section{
+  width: 80%;
+  margin: 3.8rem auto;
+  text-align: center;
+  
+}
+.courses-section h2{
+  text-align: center;
+  font-family: var(--main-fonts);
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+.courses-section .cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--main-fonts);
+  text-align: left;
+}
+.courses-section .cards .card{
+  width: 28%;
+  padding: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+.courses-section .cards .card h4{
+  text-transform: capitalize;
+}
+.courses-section .cards .card p{
+  font-size: 11px;
+  color: gray;
+}
+.courses-section .cards .card button{
+  margin: 6px 0px;
+}
+.courses-section .cards .card img{
+  width: 100%;
+}
+
+.courses-section .card-footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+}
+.courses-section .date-area , .courses-section .seat-area{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.courses-section .fa-solid , .courses-section .fa-regular{
+  color: gray;
+}
+.courses-section .all-courses-btn{
+margin: 2rem 0;
+  
+}
+/* courses section end ehere */
