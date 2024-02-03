@@ -257,4 +257,17 @@ footer h3{
 footer .footer-content-area ul li{
   font-weight: 200;
 }
+
+
+
+/* copyright section */
+.copyright{
+  text-align: center;
+  margin-top: 1.8rem;
+  font-size: 12px;
+  color: gray;
+  font-family: var(--main-fonts);
+
+}
+/* copyright section */
 /* footer section end here */
