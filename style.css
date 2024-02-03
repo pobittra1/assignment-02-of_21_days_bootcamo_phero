@@ -121,7 +121,7 @@ nav ul li {
   /* padding: 1.6rem 1rem; */
   padding: 1.8rem 1rem;
 }
-.satistics-section .cards .card:nth-child(2){
+.satistics-section .cards .card:nth-child(2) {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -138,90 +138,123 @@ nav ul li {
 }
 /* satistics section end here */
 
-
 /* courses section start here */
-.courses-section{
+.courses-section {
   width: 80%;
   margin: 3.8rem auto;
   text-align: center;
-  
 }
-.courses-section h2{
+.courses-section h2 {
   text-align: center;
   font-family: var(--main-fonts);
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
-.courses-section .cards{
+.courses-section .cards {
   width: 100%;
   display: flex;
   justify-content: space-between;
   font-family: var(--main-fonts);
   text-align: left;
 }
-.courses-section .cards .card{
+.courses-section .cards .card {
   width: 28%;
   padding: 0.8rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 8px;
 }
-.courses-section .cards .card h4{
+.courses-section .cards .card h4 {
   text-transform: capitalize;
 }
-.courses-section .cards .card p{
+.courses-section .cards .card p {
   font-size: 11px;
   color: gray;
 }
-.courses-section .cards .card button{
+.courses-section .cards .card button {
   margin: 6px 0px;
 }
-.courses-section .cards .card img{
+.courses-section .cards .card img {
   width: 100%;
 }
 
-.courses-section .card-footer{
+.courses-section .card-footer {
   display: flex;
   justify-content: space-between;
   margin: 0.8rem 0;
 }
-.courses-section .date-area , .courses-section .seat-area{
+.courses-section .date-area,
+.courses-section .seat-area {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.courses-section .fa-solid , .courses-section .fa-regular{
+.courses-section .fa-solid,
+.courses-section .fa-regular {
   color: gray;
 }
-.courses-section .all-courses-btn{
-margin: 2rem 0;
-  
+.courses-section .all-courses-btn {
+  margin: 2rem 0;
 }
 /* courses section end ehere */
 
 /* testimonial section start here */
-.testimonial-section{
+.testimonial-section {
   width: 80%;
   margin: 3.8rem auto;
   font-family: var(--main-fonts);
 }
-.testimonial-section h2{
+.testimonial-section h2 {
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 1rem;
 }
-.testimonail-hero{
+.testimonail-hero {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
 }
-.testimonail-hero .content-area p{
+.testimonail-hero .content-area p {
   font-size: 12px;
   font-weight: bold;
 }
 
-
-.testimonial-section .img-area img{
+.testimonial-section .img-area img {
   width: 80px;
 }
 /* testimonial section end here */
+
+/* footer section start here */
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #282531;
+  padding: 3rem 0;
+}
+footer img{
+  width: 120px;
+}
+.footer-content-area{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: var(--main-fonts);
+  font-size: 10px;
+  
+}
+footer .logo-area img{
+  margin-bottom: 2rem;
+}
+footer .logo-area p{
+  font-size: 10px;
+}
+footer h3{
+  font-weight: 600;
+  text-transform: capitalize;
+}
+footer .footer-content-area ul li{
+  font-weight: 200;
+}
+/* footer section end here */
