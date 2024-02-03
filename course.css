@@ -1,0 +1,168 @@
+/* reset style start here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  cursor: pointer;
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+/* reset style end here */
+
+/* primary styles start here */
+:root {
+  --main-fonts: "Poppins", sans-serif;
+  --sec-fonts: "Roboto", sans-serif;
+  --btn-clr: #21b573;
+}
+
+.primary-btn {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  background-color: var(--btn-clr);
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: capitalize;
+  border-radius: 12px;
+}
+/* primary styles end here*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* header section start here */
+.sub-contain {
+  width: 100%;
+  background-color: #f0fff0;
+}
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+nav ul li {
+  text-transform: capitalize;
+  font-family: var(--main-fonts);
+  margin: 0.2rem;
+  padding: 0.6rem;
+  font-size: 12px;
+}
+/* header section end here */
+
+/* courses section start here */
+.courses-section {
+  width: 80%;
+  margin: 3.8rem auto;
+}
+.courses-section h2{
+    font-family: var(--main-fonts);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.courses-section .cards-area{
+    width: 100%;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.courses-section .cards{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.courses-section .card{
+    width: 96%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1.2rem;
+    border: 8px;
+    font-family: var(--main-fonts);
+
+}
+.courses-section .card p{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 0.4rem;
+}
+.courses-section img{
+    width: 100%;
+}
+
+.courses-section .card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem 0;
+  }
+  .courses-section .date-area,
+  .courses-section .seat-area {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .courses-section .fa-solid,
+  .courses-section .fa-regular {
+    color: gray;
+  }
+/* courses section end here */
+
+/* footer section start here */
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #282531;
+  padding: 3rem 0;
+}
+footer img {
+  width: 120px;
+}
+.footer-content-area {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: var(--main-fonts);
+  font-size: 10px;
+}
+footer .logo-area img {
+  margin-bottom: 2rem;
+}
+footer .logo-area p {
+  font-size: 10px;
+}
+footer h3 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+footer .footer-content-area ul li {
+  font-weight: 200;
+}
+
+/* copyright section */
+.copyright {
+  text-align: center;
+  margin-top: 1.8rem;
+  font-size: 12px;
+  color: gray;
+  font-family: var(--main-fonts);
+}
+/* copyright section */
+/* footer section end here */
