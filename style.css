@@ -1,0 +1,68 @@
+/* reset style start here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+li{
+    cursor: pointer;
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
+/* reset style end here */
+
+/* primary styles start here */
+:root{
+    --main-fonts: 'Poppins', sans-serif;
+    --sec-fonts: 'Roboto', sans-serif;
+    --btn-clr:  #21B573;
+}
+
+.primary-btn{
+    padding: 0.3rem 0.8rem;
+    border: none;
+    background-color:var(--btn-clr);
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: capitalize;
+    border-radius: 12px;
+
+}
+/* primary styles end here*/
+
+.container {
+  max-width: 1200px;
+  background-color: #f0fff0;
+  margin: 0 auto;
+}
+
+/* header section start here */
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+nav ul li{
+    text-transform: capitalize;
+    font-family: var(--main-fonts);
+    margin: 0.2rem;
+    padding: 0.6rem;
+    font-size: 12px;
+}
+/* header section end here */
