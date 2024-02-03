@@ -3,34 +3,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
-li{
-    cursor: pointer;
-    list-style-type: none;
+li {
+  cursor: pointer;
+  list-style-type: none;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 /* reset style end here */
 
 /* primary styles start here */
-:root{
-    --main-fonts: 'Poppins', sans-serif;
-    --sec-fonts: 'Roboto', sans-serif;
-    --btn-clr:  #21B573;
+:root {
+  --main-fonts: "Poppins", sans-serif;
+  --sec-fonts: "Roboto", sans-serif;
+  --btn-clr: #21b573;
 }
 
-.primary-btn{
-    padding: 0.3rem 0.8rem;
-    border: none;
-    background-color:var(--btn-clr);
-    color: white;
-    font-size: 12px;
-    font-weight: 200;
-    text-transform: capitalize;
-    border-radius: 12px;
-
+.primary-btn {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  background-color: var(--btn-clr);
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: capitalize;
+  border-radius: 12px;
 }
 /* primary styles end here*/
 
@@ -52,17 +50,50 @@ header {
   width: 100px;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-nav ul li{
-    text-transform: capitalize;
-    font-family: var(--main-fonts);
-    margin: 0.2rem;
-    padding: 0.6rem;
-    font-size: 12px;
+nav ul li {
+  text-transform: capitalize;
+  font-family: var(--main-fonts);
+  margin: 0.2rem;
+  padding: 0.6rem;
+  font-size: 12px;
 }
 /* header section end here */
+
+/* hero section start here */
+.hero-section {
+  width: 80%;
+  margin: 3.8rem auto;
+  display: flex;
+  padding-bottom: 1.4rem;
+  font-family: var(--main-fonts);
+}
+.hero-section .content-area p:nth-child(1) {
+  font-size: 12px;
+  color: #fd511a;
+}
+.hero-section .content-area h1 {
+  margin: 0.6rem 0;
+}
+.hero-section .content-area h1 span {
+  color: #21b573;
+}
+.hero-details{
+  font-size: 12px;
+  color: #6C6B6B;
+}
+.hero-section .img-area {
+  width: 60%;
+}
+.hero-section .img-area img {
+  width: 100%;
+}
+.hero-section button{
+  margin: 0.8rem 0;
+}
+
+/* hero section end here */
