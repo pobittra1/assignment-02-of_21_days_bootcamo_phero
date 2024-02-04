@@ -138,6 +138,10 @@ nav ul li {
 }
 .demo-area{
   display: flex;
+  flex-direction: column;
+}
+.demo-area .dem-card{
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 1rem 0;
@@ -147,10 +151,10 @@ nav ul li {
 .demo-area img{
   width: 60px;
 }
-.demo-area .content-area h3{
+.demo-area .results-content-area h3{
   font-size: 14px;
 }
-.demo-area .content-area p{
+.demo-area .results-content-area p{
   font-size: 10px;
 }
 
