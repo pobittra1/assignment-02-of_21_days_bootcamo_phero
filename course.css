@@ -123,6 +123,61 @@ nav ul li {
   }
 /* courses section end here */
 
+/* demo section start here */
+.results{
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 0.6rem;
+  padding-bottom: 3rem;
+ 
+  position: relative;
+  
+}
+.demo-area{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
+  font-family: var(--main-fonts);
+
+}
+.demo-area img{
+  width: 60px;
+}
+.demo-area .content-area h3{
+  font-size: 14px;
+}
+.demo-area .content-area p{
+  font-size: 10px;
+}
+
+.all-count{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+  font-family: var(--main-fonts);
+
+}
+.all-count .sub-area h4 , .main-total{
+  font-size: 14px;
+}
+.all-count .sub-area .items{
+  font-size: 10px;
+}
+
+
+.results button{
+  width: 6rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0px 0.6rem 0.8rem 0px;
+  
+ 
+}
 /* footer section start here */
 footer {
   max-width: 1200px;
