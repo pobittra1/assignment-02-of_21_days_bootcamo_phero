@@ -59,11 +59,16 @@ nav ul {
   gap: 1rem;
 }
 nav ul li {
+  text-decoration: none;
   text-transform: capitalize;
   font-family: var(--main-fonts);
   margin: 0.2rem;
   padding: 0.6rem;
   font-size: 12px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
 }
 /* header section end here */
 
@@ -194,6 +199,11 @@ nav ul li {
 }
 .courses-section .all-courses-btn {
   margin: 2rem 0;
+  
+}
+.courses-section .all-courses-btn a{
+  text-decoration: none;
+  color: white;
 }
 /* courses section end ehere */
 

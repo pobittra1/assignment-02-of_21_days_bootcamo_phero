@@ -1,23 +1,3 @@
-// // selected items
-// let byCourse = document.querySelectorAll(".buy-course");
-// let demoArea = document.getElementById("demo-area");
-// // let demoImg = document.getElementById("demo-img");
-// let resultsContentArea = document.getElementById("results-content-area")
-// let demCard = document.getElementById("dem-card")
-// byCourse.forEach(button =>{
-//     button.addEventListener("click" , ()=>{
-//         demCard.classList.add("dem-card")
-//         // demoImg.src = "./images/courses-img/img3.png"
-//         const demoImg = document.createElement("img")
-//         demoImg.src = "./images/courses-img/img3.png"
-//         demoImg.width = "60px"
-//         demoArea.classList.add("demo-area")
-//         const h3 = document.createElement("h3")
-//         h3.innerText = "modern psychology"
-//         demoArea.appendChild(demoImg)
-//         demoArea.appendChild(h3)
-//     })
-// })
 
 let byCourse = document.querySelectorAll(".buy-course");
 let results = document.getElementById("results");
@@ -45,7 +25,7 @@ byCourse.forEach((button) => {
 
     cDemCard.querySelector("i").addEventListener("click" , ()=>{
         cDemCard.remove();
-        
+
     })
   });
 });
@@ -57,20 +37,3 @@ function updateData() {
   updatePrice.innerText = updateItemsCount * 1300;
   updateItems.innerText = updateItemsCount++;
 }
-
-
-
-
-
-// function dataFunc() {
-//   let demoArea = document.getElementById("demo-area");
-//   let demCard = document.getElementById("dem-card");
-//   demCard.innerHTML = `
-
-//  <p>i am pobittra</p>
-
-//     `;
-
-//   demoArea.appendChild(demCard);
-//   console.log("click");
-// }
