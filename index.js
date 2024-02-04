@@ -42,6 +42,11 @@ byCourse.forEach((button) => {
     demoArea.appendChild(cDemCard);
 
     updateData();
+
+    cDemCard.querySelector("i").addEventListener("click" , ()=>{
+        cDemCard.remove();
+        
+    })
   });
 });
 
@@ -54,9 +59,9 @@ function updateData() {
 }
 
 
-document.getElementById("update-items").addEventListener("click" , ()=>{
-    console.log('clicked')
-})
+
+
+
 // function dataFunc() {
 //   let demoArea = document.getElementById("demo-area");
 //   let demCard = document.getElementById("dem-card");
